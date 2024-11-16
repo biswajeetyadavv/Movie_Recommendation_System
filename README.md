@@ -39,3 +39,7 @@ You can install the required libraries using `pip`:
 
 ```bash
 pip install streamlit pandas requests
+
+
+Installation
+Clone the repository to your local machine:
