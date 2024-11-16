@@ -1,3 +1,15 @@
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #001f3f;
+        color: white;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 import pickle
 import streamlit as st
 import requests
@@ -25,7 +37,7 @@ def recommend(movie):
     return recommended_movies_name, recommended_movies_poster
 
 
-st.header("Movies Recommendation System Using Machine Learnig")
+st.header("Movies Recommendation System Using Machine Learning")
 
 movies = pickle.load(open('artificats/movie_list.pkl','rb'))
 similarity = pickle.load(open('artificats/similarity.pkl','rb') 
