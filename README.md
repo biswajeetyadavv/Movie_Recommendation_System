@@ -50,3 +50,42 @@ Follow these steps to set up the project locally:
    ```bash
    git clone https://github.com/yourusername/movie-recommendation-system.git
    ```
+2. Navigate into the project directory:
+
+   ```bash
+   cd movie-recommendation-system
+   ```
+3. Install the necessary dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+###Usage
+1. To run the app, use the following command in the terminal:
+
+   ```bash
+   streamlit run app.py
+   ```
+2. This will launch the Streamlit app locally.\
+   You can access it in your browser at `http://localhost:8501`.
+
+3. Once the app is up and running, you can select a movie from the dropdown list, and the system\
+   will suggest similar movies along with their posters.
+
+
+  ## How it Works
+1. **Data**: The movie_list.pkl file contains movie metadata (e.g., titles, genres, etc.), and the similarity.pkl file stores a matrix of movie similarity scores based on 
+   content or user interactions.
+2. **Recommendation Logic**: When a user selects a movie, the system uses the similarity matrix to recommend the most similar movies.
+3. **Movie Poster Fetching**: The TMDb API is used to fetch movie posters using the movie's unique identifier (movie ID) for better visualization.
+
+
+  ## License
+  This project is open source and available under the MIT License.
+
+Acknowledgements
+Streamlit - for making it easy to build interactive web applications.
+TMDb API - for providing movie data and posters.
+pandas, pickle, and requests - for supporting the core functionality of the application.
+Special thanks to all contributors and the open-source community.
