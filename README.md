@@ -1,8 +1,8 @@
 Movie recommendation System
 
 Table of Contents
-1.Project Description
-2.Features
+1.Project Description \n
+2.Features\
 3.Requirements
 4.Installation
 5.Usage
