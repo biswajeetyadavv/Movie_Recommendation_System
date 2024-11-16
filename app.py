@@ -1,15 +1,3 @@
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #001f3f;
-        color: white;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
 import pickle
 import streamlit as st
 import requests
