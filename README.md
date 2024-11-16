@@ -39,8 +39,8 @@ You can install the required libraries using `pip`:
 
 ```bash
 pip install streamlit pandas requests
+```
 
-##installation
 ## Installation
 
 Follow these steps to set up the project locally:
@@ -49,3 +49,4 @@ Follow these steps to set up the project locally:
 
    ```bash
    git clone https://github.com/yourusername/movie-recommendation-system.git
+   ```
