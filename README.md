@@ -40,6 +40,12 @@ You can install the required libraries using `pip`:
 ```bash
 pip install streamlit pandas requests
 
+##installation
+## Installation
 
-Installation
-Clone the repository to your local machine:
+Follow these steps to set up the project locally:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourusername/movie-recommendation-system.git
