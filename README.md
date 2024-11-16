@@ -85,7 +85,7 @@ Follow these steps to set up the project locally:
   This project is open source and available under the MIT License.
 
 Acknowledgements
-Streamlit - for making it easy to build interactive web applications.
-TMDb API - for providing movie data and posters.
-pandas, pickle, and requests - for supporting the core functionality of the application.
+Streamlit - for making it easy to build interactive web applications.\
+TMDb API - for providing movie data and posters.\
+pandas, pickle, and requests - for supporting the core functionality of the application.\
 Special thanks to all contributors and the open-source community.
